@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".UpdateSingerActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/search_a_song"
+        android:textSize="@dimen/text_size"
+        android:inputType="text"
+        android:layout_marginTop="@dimen/margin_t"
+        android:id="@+id/searchSong"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search"
+        android:id="@+id/btnSearch"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_t"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_t"
+        android:id="@+id/editUpdate"
+        android:inputType="text"
+        android:textSize="@dimen/text_size"
+        android:hint="@string/enter_the_singer_name"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/update"
+        android:id="@+id/btnUpdate"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_t"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/displaySongs"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size"
+        android:layout_marginTop="@dimen/margin_t"
+        />
+
+</LinearLayout>
